@@ -1,1 +1,222 @@
 /* Copy your CSS code from CodePen below this point */
+nav ul {
+  background-color: #f7232a;
+  list-style: none;
+  padding: 10px 0;
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #3c3c3c;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f6ead4;
+}
+
+.container-with-background {
+  position: relative;
+  background-image: url("./images/heroBackground.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  background-size: cover;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-fade-in {
+  opacity: 0;
+  height: 200px;
+}
+
+.about-us-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #faf7f7;
+}
+
+.about-us-left,
+.about-us-right {
+  width: 40%;
+  text-align: left;
+  padding: 1%;
+}
+
+.about-us-right img {
+  max-width: 100%;
+  height: auto;
+  min-width: 400px; /* Set a minimum width for the image container */
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+footer {
+  background-color: #faf7f7;
+}
+
+.column {
+  max-width: 30px;
+  padding: 2px;
+}
+
+.column img {
+  width: 30px;
+}
+
+.favorites-flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.favorites-flex-container img {
+  width: 25%;
+  margin: 5px;
+}
+
+.menu-container {
+  margin: 0 auto;
+  text-align: center;
+  width: 95%;
+  line-height: 100%;
+}
+
+.menu-container h2 {
+  margin: 30px;
+  padding: 10px;
+}
+
+.menu-container h3 {
+  color: #bf020e;
+  margin: 10px;
+  padding: 3px;
+}
+
+.menu-container p {
+  font-size: 14px;
+}
+
+#menu-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-left,
+.menu-right {
+  width: 50%;
+  text-align: center;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(0);
+  transition: opacity 1.5s, transform 1s;
+}
+
+/* CSS for elements in the viewport */
+.in-viewport {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#favorites-section {
+  padding: 5px 0;
+  text-align: center;
+  background-color: #faf7f7;
+}
+
+.location-hours-container {
+  justify-content: center;
+  display: flex;
+  align-items: left;
+  margin: 15px 0;
+}
+
+.location-hours-left,
+.location-hours-right {
+  width: 30%;
+  text-align: left;
+}
+
+.location-hours-right {
+  background-color: #f7232a;
+  padding: 0 15px;
+}
+
+.location-hours-right ul {
+  padding: 0;
+}
+
+.location-hours-right li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-hours-right h2 {
+  color: white;
+}
+
+.location-hours-left img {
+  max-width: 100%;
+}
+
+.disclaimer {
+  font-style: italic;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: Tomato;
+}
+
+h1,
+h3 {
+  font-family: "Roboto", sans serif;
+}
+
+h2,
+h4 {
+  font-family: "Raleway", sans serif;
+}
+
+section,
+nav {
+  font-family: "Lora", sans serif;
+}
